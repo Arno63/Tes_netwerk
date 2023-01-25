@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Jawa Timur</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h2> Gunung Bromo</h2>
+    </div>
+    <section class="body">
+        <div class="container body-wrapper">
+            <div class="content-left">
+                    <center><img src="resource/img/Gunung Bromo/Bromo3.jpeg" alt="" height="200" width="300"></center>
+                    <div class="img">
+                        <center> 
+                        <a href="detail_GunungBromo2.html"><img src="resource/img/left.jpg" alt=""height="60" width="60" ></a>
+                        <img src="resource/img/Gunung Bromo/Bromo1.jpeg" alt=""height="60" width="60">
+                        <img src="resource/img/Gunung Bromo/Bromo2.jpeg" alt=""height="60" width="60">
+                        <img src="resource/img/Gunung Bromo/Bromo3.jpeg" alt=""height="60" width="60">
+                        <a href="detail_GunungBromo.html"><img src="resource/img/right.jpg" alt=""height="60" width="60"></a>
+                        </center>
+                    </div>
+            </div>
+            <div class="content-right">
+                <p>Gunung Bromo atau dalam bahasa Tengger dieja "Brama", juga disebut Kaldera Tengger, adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.329 meter di atas permukaan laut dan berada dalam empat wilayah kabupaten, yakni Kabupaten Probolinggo, Kabupaten Pasuruan, Kabupaten Lumajang, dan Kabupaten Malang.</p>
+                <p>Gunung Bromo terkenal sebagai objek wisata utama di Jawa Timur. Sebagai sebuah objek wisata, Bromo menjadi menarik karena statusnya sebagai gunung berapi yang masih aktif.</p>
+                <p>Gunung Bromo termasuk dalam kawasan Taman Nasional Bromo Tengger Semeru.</p>
+            </div>
+        </div>
+    </section>
+    <div class="body">
+        <form>
+        <h1>Formulir Pemesanan Tiket Gunung Bromo</h1>
+        <table>
+            <tr>
+             <td><label>NAMA</label></td>
+             <td>: <input type="text" id="inp_nama" name=""></td>
+            </tr>
+
+            <tr>
+             <td><label>Telp/ Hp</label></td>
+             <td>: <input type="text" id="inp_telp" name=""></td>
+            </tr>
+            <tr>
+                <td><label>Jumlah Tiket</label></td>
+                <td>: <input onkeyup="Total()" type="number"
+                id="jumlah" name=""></td>
+            </tr>
+
+            <tr>
+                <td><label>HARGA TIKET</label></td>
+                <td>: <input type="text" id="harga" name=""></td>
+               <tr>
+                
+            <tr>
+                <td><label>Diskon</label></td>
+                <td>: <input type="text" id="dis" name=""></td>
+            </tr>
+
+            <tr>
+                <td><label>Total Bayar</label></td>
+                <td>: <input type="text" id="total" disabled="true" name=""></td>
+            </tr>
+
+            <tr>
+                <td> Permintaan Khusus </td>
+                <td>: <input type="text" id="inp_permintaan" name=""></td>
+            </tr>
+            </table>
+            <button onclick="hasil()">proses</button>
+        </form>
+    </div>
+<script type="text/javascript" src="resource/main.js"></script>
+</body>
+</html>

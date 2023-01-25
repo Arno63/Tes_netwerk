@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Jawa Timur</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h2> Pantai Tiga Warna</h2>
+    </div>
+    <section class="body">
+        <div class="container body-wrapper">
+            <div class="content-left">
+                    <center><img src="resource/img/Pantai Tiga Warna/pantai2.jpg" alt="" height="200" width="300"></center>
+                    <div class="img">
+                        <center> 
+                        <a href="detail_PantaiTigaWarna.html"><img src="resource/img/left.jpg" alt=""height="60" width="60" ></a>
+                        <img src="resource/img/Pantai Tiga Warna/pantai1.jpg" alt=""height="60" width="60">
+                        <img src="resource/img/Pantai Tiga Warna/pantai2.jpg" alt=""height="60" width="60">
+                        <img src="resource/img/Pantai Tiga Warna/pantai3.jpg" alt=""height="60" width="60">
+                        <a href="detail_PantaiTigaWarna3.html"><img src="resource/img/right.jpg" alt=""height="60" width="60"></a>
+                        </center>
+                    </div>
+            </div>
+            <div class="content-right">
+                <p>Pantai Tiga Warna merupakan salah satu pantai yang berada di dalam kawasan CMC (Clungup Mangrove Conservation). Dan menjadi pilihan wisata pantai lain ketika berada di Malang.Pantai ini memiliki keunikan tersendiri, hal tersebut bisa dilihat dari namanya. Dimana pantai ini memiliki gradasi warna yang berbeda-beda, dan terlihat sangat cantik dari ketinggian.</p>
+                <p>Untuk menuju Pantai Tiga Warna, harus berjalan kaki terlebih dahulu dengan menyusuri kawasan hutan mangrove serta melewati beberapa pantai lainnya. Jika kamu menggunakan mobil, maka harus memakirkan kendaraan di bagian depan kemudian melanjutkannya dengan menggunakan ojeg. Bisa juga dengan berjalan kaki, jarak tempuhnya lebih dari 1 km hingga akhirnya tiba di Pos 1.</p>
+                <p>Sedangkan untuk kamu yang menggunakan motor, dapat langsung melanjutkan perjalanan hingga parkiran yang lokasinya dekat dengan Pos 1. Perjalanan belum berhenti sampai disitu, kamu harus terus melanjutkan perjalanan hingga tiba di Pos 2.</p>
+            </div>
+        </div>
+    </section>
+    <div class="body">
+        <form>
+        <h1>Formulir Pemesanan Tiket Pantai Tiga Warna</h1>
+        <table>
+            <tr>
+             <td><label>NAMA</label></td>
+             <td>: <input type="text" id="inp_nama" name=""></td>
+            </tr>
+
+            <tr>
+             <td><label>Telp/ Hp</label></td>
+             <td>: <input type="text" id="inp_telp" name=""></td>
+            </tr>
+            <tr>
+                <td><label>Jumlah Tiket</label></td>
+                <td>: <input onkeyup="Total()" type="number"
+                id="jumlah" name=""></td>
+            </tr>
+
+            <tr>
+                <td><label>HARGA TIKET</label></td>
+                <td>: <input type="text" id="harga" name=""></td>
+               <tr>
+                
+            <tr>
+                <td><label>Diskon</label></td>
+                <td>: <input type="text" id="dis" name=""></td>
+            </tr>
+
+            <tr>
+                <td><label>Total Bayar</label></td>
+                <td>: <input type="text" id="total" disabled="true" name=""></td>
+            </tr>
+
+            <tr>
+                <td> Permintaan Khusus </td>
+                <td>: <input type="text" id="inp_permintaan" name=""></td>
+            </tr>
+            </table>
+            <button onclick="hasil()">proses</button>
+        </form>
+    </div>
+<script type="text/javascript" src="resource/main.js"></script>
+</body>
+</html>

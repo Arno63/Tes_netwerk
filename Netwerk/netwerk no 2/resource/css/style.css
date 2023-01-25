@@ -1,0 +1,29 @@
+.header{
+    margin: auto;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 25px;
+}
+.body-wrapper{
+    margin: auto;
+    display: flex;
+}
+.content-left{
+    height: 900px;
+    width: 1400px;
+    margin-left: 100px;
+}
+.content-right{
+    margin-bottom: 10%;
+    height: 900px;
+    margin-right: 100px;
+    width: 1200px;
+    text-align: justify;
+    font-family: Calibri;
+    font-size: 18px;
+}
+.footer{
+    margin: 100px;
+    font-family: Calibri;
+    
+}

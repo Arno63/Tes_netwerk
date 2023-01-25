@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Jawa Timur</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h2> Museum Angkut</h2>
+    </div>
+    <section class="body">
+        <div class="container body-wrapper">
+            <div class="content-left">
+                    <center><img src="resource/img/Museum Angkut/museum2.jpg" alt="" height="200" width="300"></center>
+                    <div class="img">
+                        <center> 
+                        <a href="detail_MuseumAngkut.html"><img src="resource/img/left.jpg" alt=""height="60" width="60" ></a>
+                        <img src="resource/img/Museum Angkut/museum1.jpg" alt=""height="60" width="60">
+                        <img src="resource/img/Museum Angkut/museum2.jpg" alt=""height="60" width="60">
+                        <img src="resource/img/Museum Angkut/museum3.jpg" alt=""height="60" width="60">
+                        <a href="detail_MuseumAngkut3.html"><img src="resource/img/right.jpg" alt=""height="60" width="60"></a>
+                        </center>
+                    </div>
+            </div>
+            <div class="content-right">
+                <p>Terinspirasi dari bentuk penghargaan atas penciptaan alat transportasi di dunia. Kini, telah hadir museum transportasi modern pertama di Indonesia dan Asia yang memadukan unsur seni dan budaya. Museum Angkut Plus Movie Star Studio merupakan museum dengan konsep edukasi dan entertainment yang ditampilkan secara langsung.</p>
+                <p>Letaknya yang nyaman dan asri dilereng gunung Panderman di areal seluas 3,8 hektar siap memanjakan anda dengan 300 lebih koleksi jenis angkutan mulai tradisional sampai modern yang dipadukan dengan berbagai landscape dan model bangunan eksotis dunia mulai dari benua Eropa sampai Amerika.</p>
+                <p>Selain itu, pengunjung dapat bersantai menikmati suasana hidangan saung di Pasar Apung yang menjajakan berbagai kuliner dan handycraft khas Nusantara.</p>
+            </div>
+        </div>
+    </section>
+    <div class="body">
+        <form>
+        <h1>Formulir Pemesanan Tiket Museum Angkut</h1>
+        <table>
+            <tr>
+             <td><label>NAMA</label></td>
+             <td>: <input type="text" id="inp_nama" name=""></td>
+            </tr>
+
+            <tr>
+             <td><label>Telp/ Hp</label></td>
+             <td>: <input type="text" id="inp_telp" name=""></td>
+            </tr>
+            <tr>
+                <td><label>Jumlah Tiket</label></td>
+                <td>: <input onkeyup="Total()" type="number"
+                id="jumlah" name=""></td>
+            </tr>
+
+            <tr>
+                <td><label>HARGA TIKET</label></td>
+                <td>: <input type="text" id="harga" name=""></td>
+               <tr>
+                
+            <tr>
+                <td><label>Diskon</label></td>
+                <td>: <input type="text" id="dis" name=""></td>
+            </tr>
+
+            <tr>
+                <td><label>Total Bayar</label></td>
+                <td>: <input type="text" id="total" disabled="true" name=""></td>
+            </tr>
+
+            <tr>
+                <td> Permintaan Khusus </td>
+                <td>: <input type="text" id="inp_permintaan" name=""></td>
+            </tr>
+            </table>
+            <button onclick="hasil()">proses</button>
+        </form>
+    </div>
+<script type="text/javascript" src="resource/main.js"></script>
+</body>
+</html>

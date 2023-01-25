@@ -1,0 +1,20 @@
+body {
+    margin: 100px;
+    font-family: Calibri;
+    text-align: justify;
+}
+
+.header{
+    text-align: center;
+}
+.img{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text{
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+}
